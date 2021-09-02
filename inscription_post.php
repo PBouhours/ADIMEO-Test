@@ -4,7 +4,7 @@ session_start();
 // Connexion à la base de données
 try
 {
-	$bdd = new PDO('mysql:host=localhost;dbname=titan;charset=utf8', 'adminTitan', 'CayfugqkRJdZV3jt');
+	$bdd = new PDO('mysql:host=localhost;dbname=DB_NAME;charset=utf8', 'DB_USER', 'DB_PASSWORD');
 }
 catch(Exception $e)
 {
