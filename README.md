@@ -11,10 +11,15 @@ Avoir PHP et MySQL installés sur sa machine. Créer sa BDD. Clôner le projet
 Créez une base de données du nom de votre choix et un compte utilisateur avec un mot de passe de votre choix.
 
 Dans cette base de données, créez une table avec les champs suivants :
+
 id -> de type INT , Primary Key, Auto increment et Non Nul
+
 firstname -> de type VARCHAR , Non Nul
+
 lastname -> de type VARCHAR , Non Nul
+
 email -> type VARCHAR , Non Nul
+
 newsletter -> type BOULEAN
 
 ![Screenshot](image1.png)
